@@ -1,5 +1,7 @@
 package com.microservice.orderservice.mapper;
 
+import com.microservice.orderservice.dto.order.OrderRequest;
+import com.microservice.orderservice.dto.order.OrderResponse;
 import com.microservice.orderservice.model.Order;
 import org.springframework.stereotype.Service;
 

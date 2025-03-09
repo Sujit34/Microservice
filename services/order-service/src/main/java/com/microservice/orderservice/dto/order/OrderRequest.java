@@ -2,6 +2,7 @@ package com.microservice.orderservice.dto.order;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
+import com.microservice.orderservice.dto.product.PurchaseRequest;
 import com.microservice.orderservice.util.PaymentMethod;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -9,6 +10,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @JsonInclude(Include.NON_EMPTY)
 public record OrderRequest(
